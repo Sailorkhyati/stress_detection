@@ -270,8 +270,7 @@ from sklearn.svm import SVC
 classifier = SVC(kernel='linear', random_state=0)
 classifier.fit(X_train, y_train)
 
-print("Shape of y_test:", y_test.shape)
-print("Shape of y_predict:", y_predict.shape)
+
 
 """# ***DEPLOYMENT***
 
